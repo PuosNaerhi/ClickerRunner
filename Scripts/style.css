@@ -1,0 +1,38 @@
+canvas {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#background {
+	z-index: -1;
+}
+#kyltti {
+	z-index: 0;
+}
+#ukko {
+	z-index: 1;
+}
+.time {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 30px;
+	display: none;
+}
+.restart {
+	position: absolute;
+	top: 150px;
+	left: 0px;			
+	font-size: 30px;
+	display: none;				
+}
+.restart span {
+	font-size: 30px;			
+	position: relative;
+	left: 100px;
+}
+.restart span:hover {
+	color: #0000FF;
+}
+
