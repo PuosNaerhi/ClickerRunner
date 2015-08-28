@@ -126,6 +126,13 @@ function Game() {
 				animate();
 			}, false);
 
+			this.ukkoCanvas.addEventListener('touchstart', function(evt){
+				evt.preventDefault();
+				game.kyltti.count();
+				animate();        			
+    			}, false);
+
+
 			animate();
 		} 
 	};
